@@ -22,11 +22,16 @@ import Footer from '@/components/Footer.vue'
         font-family: 'Poppins', sans-serif;
         font-size: 2rem;
         font-weight: 700;
-        color: #000000;
+        color: #24222A;
     }
     .subtitle {
         font-size: 1rem;
         font-weight: 600;
-        color: #000000;
+        color: #7e7b81;
+    }
+    .main-text{
+        font-size: 1rem;
+        font-weight: 300;
+        color: #B1B0B8;
     }
 </style>

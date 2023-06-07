@@ -10,17 +10,23 @@
                 :dot-color="year.color"
                 size="small"
             >
-                <!-- <template v-slot:opposite>
+                <template v-slot:opposite>
                 <div
-                    :class="`pt-1 headline font-weight-bold text-${year.color}`"
-                    v-text="year.year"
+                    :class="`pt-1 font-weight-mediun text-grey-lighten-1`"
+                    v-text="year.status"
                 ></div>
-                </template> -->
+                </template>
                 <div>
-                <h2 :class="`mt-n1 headline font-weight-light mb-4 text-${year.color}`">
+                <h2 :class="`mt-n1 headline font-weight-bold mb-1 text-deep-purple-lighten-1`">
                     {{ year.title }}
                 </h2>
-                <div>
+                <div :class="`mt-n1 font-weight-medium mb-1 text-grey-darken-1`">
+                    {{ year.company }}
+                </div>
+                <div :class="`mt-n1 font-weight-medium mb-1 text-grey-darken-1`">
+                    {{ year.year }}
+                </div>
+                <div :class="`pt-1 font-weight-mediun text-grey-lighten-1`" >
                     {{ year.text }}
                 </div>
                 </div>
@@ -35,15 +41,27 @@
     data: () => ({
       years: [
         {
-          color: 'cyan',
-          year: '2023',
-          title: 'Lorem 123',
+          color: 'deep-purple-lighten-1',
+          status: 'Internship',
+          title: 'Programmer Intern',
+          company: 'Directory of System and Informastion Resource, UGM',
+          year: '2023 - Now',
           text: 'Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut.',
         },
         {
-          color: 'pink',
+          color: 'deep-purple-lighten-1',
+          status: 'Freelance',
+          title: 'Product Designer',
+          company: 'MyFlorist.id',
+          year: '2023 - Now',
+          text: 'Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut.',
+        },
+        {
+          color: 'deep-purple-lighten-1',
+          status: 'Internship',
+          title: 'Associate Product Designer Intern',
+          company: 'PT. TaniHub Indonesia',
           year: '2021',
-          title: 'Lorem ipsum',
           text: 'Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut.',
         }
       ],
