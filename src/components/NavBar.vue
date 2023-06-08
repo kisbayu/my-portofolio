@@ -5,7 +5,7 @@
     <v-btn text @click="scroll('home')">Home</v-btn>
     <v-btn text @click="scroll('experience')">Experience</v-btn>
     <v-btn text @click="scroll('skills')">Skills</v-btn>
-    <v-btn text @click="scroll('projects')">Projects</v-btn>
+    <!-- <v-btn text @click="scroll('projects')">Projects</v-btn> -->
   </v-app-bar>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-    <v-container id="experience">
+    <v-container id="experience" class="mb-5">
         <div class="title d-flex justify-center">Experience</div>
         <div class="subtitle d-flex justify-center">My Work Experience</div>
         <div class="timeline-container">

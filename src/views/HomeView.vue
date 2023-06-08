@@ -4,7 +4,7 @@ import NavBar from '@/components/NavBar.vue'
 import Hello from '@/components/Hello.vue'
 import Experience from '@/components/Experience.vue'
 import Skills from '@/components/Skills.vue'
-import MyProjects from '@/components/MyProjects.vue'
+// import MyProjects from '@/components/MyProjects.vue'
 import Footer from '@/components/Footer.vue'
 </script>
 
@@ -13,7 +13,7 @@ import Footer from '@/components/Footer.vue'
     <Hello />
     <Experience />
     <Skills />
-    <MyProjects />
+    <!-- <MyProjects /> -->
     <Footer />
 </template>
 
