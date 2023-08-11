@@ -17,7 +17,7 @@
             <div class="title">Howdy, I'm Bayu</div>
             <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Roboto&weight=700&size=18&duration=4000&pause=600&color=9272CB&width=435&lines=Software+Engineer;Web+Developer;UX+Researcher;Product+Designer" alt="Typing SVG" /></a>
             <div class="main-text mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit deserunt velit harum. Unde beatae similique officiis doloremque.
+              A lifelong learner, a highly disciplined person, and a creative person. Have a keen interest in software development, web developer, user experience, and applied psychology.
             </div>
           </v-sheet>
         </v-col>
