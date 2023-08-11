@@ -4,12 +4,17 @@
     >
       <div>
         <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4"
-          :icon="icon"
-          variant="text"
-        ></v-btn>
+        icon="mdi-linkedin"
+        class="mx-4"
+        variant="text"
+        @click="redirectToLinkedIn">
+        </v-btn>
+        <v-btn
+        icon="mdi-github"
+        class="mx-4"
+        variant="text"
+        @click="redirectToGithub">
+        </v-btn>
       </div>
   
       <div class="pt-0">
@@ -26,6 +31,16 @@
 
 <script>
 export default {
+
+  methods: {
+    redirectToLinkedIn() {
+      window.open("https://www.linkedin.com/in/kisbayuadji/", "_blank");
+    },
+    redirectToGithub() {
+      window.open("https://github.com/kisbayu", "_blank");
+    }
+  },
+
   data: () => ({
     icons: [
       'mdi-linkedin',
