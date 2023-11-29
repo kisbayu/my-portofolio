@@ -23,7 +23,7 @@
                 <div :class="`mt-n1 font-weight-medium mb-1 text-grey-darken-1`">
                     {{ year.company }}
                 </div>
-                <div :class="`mt-n1 font-weight-medium mb-1 text-grey-darken-1`">
+                <div :class="`mt-n1 font-weight-light mb-1 text-grey-lighten-1`">
                     {{ year.year }}
                 </div>
                 <div :class="`pt-1 font-weight-mediun text-grey-lighten-1`" >
@@ -42,34 +42,42 @@
       years: [
         {
           color: 'deep-purple-lighten-1',
-          status: 'Part Time',
-          title: 'Web Developer',
-          company: 'Directory of Information Technology UGM',
-          year: '2023 - Now',
+          status: 'Full Time',
+          title: 'Graduate Trainee',
+          company: 'PT Asahimas Chemical',
+          year: 'October 2023 - Now',
           text: 'Implementating and slicing web design using WordPress. Creating and maintaining web applications using CodeIgniter.',
-        },
-        {
-          color: 'deep-purple-lighten-1',
-          status: 'Freelance',
-          title: 'Web Developer',
-          company: 'Ministry of Industry Republic of Indonesia',
-          year: '2023',
-          text: 'Creating a small medium enterprise (SME) website using php, laravel, postgres, and blade tamplate engine.',
         },
         {
           color: 'deep-purple-lighten-1',
           status: 'Freelance',
           title: 'Product Designer',
           company: 'MyFlorist.id',
-          year: '2023 - Now',
+          year: 'January 2023 - Now',
           text: 'Creating the brand and grand design of MyFlorist.id. Developing the product design and user experience.',
         },
+        {
+          color: 'deep-purple-lighten-1',
+          status: 'Part Time',
+          title: 'Web Developer',
+          company: 'Directory of Information Technology UGM',
+          year: 'April - September 2023',
+          text: 'Implementating and slicing web design using WordPress. Creating and maintaining web applications using CodeIgniter.',
+        },
+        // {
+        //   color: 'deep-purple-lighten-1',
+        //   status: 'Freelance',
+        //   title: 'Web Developer',
+        //   company: 'Ministry of Industry Republic of Indonesia',
+        //   year: '2023',
+        //   text: 'Creating a small medium enterprise (SME) website using php, laravel, postgres, and blade tamplate engine.',
+        // },
         {
           color: 'deep-purple-lighten-1',
           status: 'Internship',
           title: 'Associate Product Designer Intern',
           company: 'PT. TaniHub Indonesia',
-          year: '2022',
+          year: 'March - August 2022',
           text: 'Creating an user friendly design using Figma. Maintaing product design and user experience of TaniHub',
         }
       ],
