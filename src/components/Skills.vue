@@ -44,7 +44,7 @@ export default {
           icon: 'mdi-monitor',
           title: 'Frontend Development',
           text: 'Bring ideas to life with intuitive and captivating user interfaces. I specialize in leveraging modern frontend frameworks to create engaging web experiences.',
-          tech: ['vuedotjs', 'React', 'JavaScript'],
+          tech: ['vuedotjs', 'React', 'JavaScript','joomla','wordpress'],
         },
         {
           icon: 'mdi-server-network',
@@ -64,6 +64,20 @@ export default {
           title: 'UX Research',
           text:
             'Uncover valuable insights and optimize user journeys through thorough research and analysis. I employ user-centered methodologies to understand user behavior, conduct usability testing, and refine product experiences.',
+        },
+        {
+          icon: 'mdi-lan-connect',
+          title: 'Network & Infrastructure',
+          text:
+            'Designing resilient, secure, and high-performance infrastructure. Deep understanding of systems architecture, networking, and IT operations, I build and maintain the backbone that keeps businesses running smoothly.',
+          tech: ['linux','centos','redhat','suse','hp','dell','lenovo','cisco','fortinet','junipernetworks','mcafee'],
+        },
+        {
+          icon: 'mdi-calendar-clock',
+          title: 'Project Management',
+          text:
+            'Delivering projects on time, on scope, and on budget is my commitment. I specialize in planning, executing, and monitoring cross-functional projects while managing risks, stakeholders, and resources to achieve high-impact results.',
+          tech: ['jira','notion'],
         },
       ],
     };
